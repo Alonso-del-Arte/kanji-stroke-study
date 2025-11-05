@@ -1,0 +1,10 @@
+# Vim
+*.swp
+
+# macOS
+.DS_Store
+
+# Miscellaneous
+draft/
+secrets/
+
