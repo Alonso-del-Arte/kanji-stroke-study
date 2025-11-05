@@ -1,3 +1,6 @@
+# Copyrighted materials not to be checked in
+in/copyrighted/
+
 # Vim
 *.swp
 
@@ -5,6 +8,8 @@
 .DS_Store
 
 # Miscellaneous
+localdevicenotes.txt
+scratchpad.txt
 draft/
 secrets/
 
