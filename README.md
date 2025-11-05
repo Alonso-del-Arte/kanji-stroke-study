@@ -16,3 +16,11 @@ can be copied and pasted to a plain text file.
 
 The page also listed FINISH WRITING
 
+I don't intend to open this project to Hacktoberfest.
+
+## Dependencies
+
+* Python 3.7 or later
+* Beautiful Soup
+* Unihan ETL
+
