@@ -9,7 +9,7 @@ the whole question), I got a webpage listing a 64-stroke character pronounced
 character '&#x807E;', meaning "deaf." The character for "deaf" only has 22 
 strokes.
 
-It took me a lot of effort on Jim Breen's WWWJDIC to identify '&#807E;' as 
+It took me a lot of effort on Jim Breen's WWWJDIC to identify '&#x807E;' as 
 U+807E in Unicode. As for the character for "noisy," I wonder if it's even 
 present in Unicode. The page has it as an image file, not as a character that 
 can be copied and pasted to a plain text file.
