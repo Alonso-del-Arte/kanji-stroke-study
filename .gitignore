@@ -1,3 +1,6 @@
+ __pycache__/
+*.pyc
+
 # Copyrighted materials not to be checked in
 in/copyrighted/without-advance-permission
 
