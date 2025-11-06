@@ -1,5 +1,8 @@
 # Copyrighted materials not to be checked in
-in/copyrighted/
+in/copyrighted/without-advance-permission
+
+# Unicode data, including Unihan data
+unicode/
 
 # Vim
 *.swp
@@ -12,4 +15,3 @@ localdevicenotes.txt
 scratchpad.txt
 draft/
 secrets/
-
