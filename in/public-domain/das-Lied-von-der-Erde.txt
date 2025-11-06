@@ -2,7 +2,43 @@ Das Lied von der Erde
 
 Das Trinklied vom Jammer der Erde
 
-PLACEHOLDER FOR ORIGINAL CHINESE TEXT BY Li Bai
+悲歌行
+
+悲来乎，悲来乎。
+主人有酒且莫斟，
+听我一曲悲来吟。
+悲来不吟还不笑，
+天下无人知我心。
+君有数斗酒，
+我有三尺琴。
+琴鸣酒乐两相得，
+一杯不啻千钧金。
+
+悲来乎，悲来乎。
+天虽长，地虽久，
+金玉满堂应不守。
+富贵百年能几何，
+死生一度人皆有。
+孤猿坐啼坟上月，
+且须一尽杯中酒。
+
+悲来乎，悲来乎。
+凤凰不至河无图，
+微子去之箕子奴。
+汉帝不忆李将军，
+楚王放却屈大夫。
+
+悲来乎，悲来乎。
+秦家李斯早追悔，
+虚名拨向身之外。
+范子何曾爱五湖，
+功成名遂身自退。
+剑是一夫用，
+书能知姓名。
+惠施不肯干万乘，
+卜式未必穷一经。
+还须黑头取方伯，
+莫谩白首为儒生。
 
 Schon winkt der Wein im goldenen Pokalen,
 Doch trinkt noch nicht, erst sing ich euch ein Lied!
@@ -62,7 +98,18 @@ Must empty this cup of wine in one gulp.
 
 Der Einsame im Herbst
 
-PLACEHOLDER FOR ORIGINAL CHINESE TEXT BY Qian Qi
+效古秋夜长
+
+秋汉飞玉霜，
+北风雪荷香。
+含情纺织孤灯尽，
+拭泪相思寒漏长。
+檐前碧云静如水，
+月吊栖乌啼雁起。
+谁家少妇事鸳机，
+锦幕云屏深掩扉。
+白玉窗中闻落叶，
+应怜寒女独无依
 
 Herbstnebel wallen bläulich überm See;
 Vom Reif bezogen stehen alle Gräser;
@@ -100,6 +147,17 @@ Listening to falling leaves by the white jade window
 Pity the woman, chilled and alone without company]
 
 Von der Jugend
+
+宴陶家亭子
+
+曲巷幽人宅，
+高门大士家。
+池开照胆镜，
+林吐破颜花。
+绿水藏春日，
+青轩袐晚霞。
+若闻弦管妙，
+金谷不能夸。
 
 Mitten in dem kleinen Teiche
 Steht ein Pavillon aus grünem
@@ -142,6 +200,17 @@ If strings and woodwinds are delightful to hear,
 Unmatched by “golden valley”
 
 Von der Schönheit
+
+采莲曲
+
+若耶溪边采莲女，
+笑隔荷花共人语。
+日照新妆水底明，
+风飘香袖空中举。
+岸上谁家游冶郎，
+三三五五映垂杨。
+紫骝嘶入落花去，
+见此踟蹰空断肠。
 
 Junge Mädchen,
 Pflücken Lotosblumen an dem Uferrande. 
@@ -188,6 +257,23 @@ Purple horses neighing pass, flowers fallen
 Witnessing this, troubled and lament in vain 
 
 Der Trunkene im Frühling
+
+春日醉起言志
+
+处世若大梦，
+胡为劳其生。
+所以终日醉，
+颓然卧前楹。
+
+觉来盼庭前，
+一鸟花间鸣。
+借问此何时，
+春风语流莺。
+
+感之欲叹息，
+对酒还自倾。
+浩歌待明月，
+曲尽已忘情。
 
 Wenn nur ein Traum das Dasein ist,
 Warum denn Müh und Plag?
@@ -236,6 +322,18 @@ Singing loudly, awaiting the moon
 Song ends, feelings forgotten
 
 Der Abschied
+
+
+宿业师山房待丁大不至
+
+夕阳度西岭，
+群壑倏已暝。
+松月生夜凉，
+风泉满清听。
+樵人归欲尽，
+烟鸟栖初定。
+之子期宿来，
+孤琴候萝径。
 
 Die Sonne scheidet hinter dem Gebirge.
 In alle Täler steigt der Abend nieder
