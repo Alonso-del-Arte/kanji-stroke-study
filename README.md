@@ -18,6 +18,18 @@ The page also listed FINISH WRITING
 
 I don't intend to open this project to Hacktoberfest.
 
+## Text selections
+
+### Public domain
+
+* A very few haiku, just for the sake of initial testing
+* The original Chinese texts which were translated to German by Hans Bethge and 
+then used by Gustav Mahler for *Das Lied von der Erde*.
+
+### Copyrighted
+
+PLACEHOLDER
+
 ## Dependencies
 
 * Python 3.7 or later
