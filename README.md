@@ -14,7 +14,17 @@ U+807E in Unicode. As for the character for "noisy," I wonder if it's even
 present in Unicode. The page has it as an image file, not as a character that 
 can be copied and pasted to a plain text file.
 
-The page also listed FINISH WRITING
+When the Chinese write about something that is noisy, they're probably going to 
+use a character with a lot fewer strokes than the 64 of "zh&eacute;". And the 
+Japanese bypass kanji altogether, with "&#x3046;&#x308B;&#x3055;&#x3044;" 
+("urusai").
+
+The page also listed a character with almost two hundred strokes, but 
+acknowledged it was probably meant as a talisman rather than as actual 
+communication.
+
+So then my question is: Which Chinese character that you can actually find in a 
+Chinese or Japanese newspaper has the most strokes?
 
 I don't intend to open this project to Hacktoberfest.
 
@@ -22,7 +32,8 @@ I don't intend to open this project to Hacktoberfest.
 
 ### Public domain
 
-* A very few haiku, just for the sake of initial testing
+* A very few haiku, just for the sake of initial testing, either by Basho or his 
+contemporaries.
 * The original Chinese texts which were translated to German by Hans Bethge and 
 then used by Gustav Mahler for *Das Lied von der Erde*.
 
@@ -35,4 +46,3 @@ PLACEHOLDER
 * Python 3.7 or later
 * Beautiful Soup
 * Unihan ETL
-
