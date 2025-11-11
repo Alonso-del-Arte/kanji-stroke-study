@@ -30,7 +30,11 @@ I don't intend to open this project to Hacktoberfest.
 
 ## Text selections
 
+I'm putting these in the in/ folder of this repository.
+
 ### Public domain
+
+These are in the in/public-domain/ folder.
 
 * A very few haiku, just for the sake of initial testing, either by Basho or his 
 contemporaries.
@@ -39,7 +43,21 @@ then used by Gustav Mahler for *Das Lied von der Erde*.
 
 ### Copyrighted
 
-PLACEHOLDER
+These are in the in/copyrighted/ folder.
+
+#### With advance permission
+
+These are going to be texts that I have obtained permission to use and include 
+in this repository.
+
+#### Without advance permission
+
+These are going to be texts that I have not gotten permission to use and include 
+in this repository. They're excluded by the Git Ignore.
+
+I figure that if only scrape the Chinese and Japanese newspapers one level from 
+their websites' front pages, no one should have any objection, just as long as I 
+don't upload that content here on GitHub.
 
 ## Dependencies
 
