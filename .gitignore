@@ -1,10 +1,11 @@
- __pycache__/
+__pycache__/
 *.pyc
 
 # Copyrighted materials not to be checked in
 in/copyrighted/without-advance-permission
 
-# Unicode data, including Unihan data
+# Unicode data, including Unihan data. Information will need to be "manually"
+# refreshed.
 unicode/
 
 # Vim
@@ -30,7 +31,7 @@ Temporary Items
 .apdisk
 
 # Miscellaneous
-localdevicenotes.txt
-scratchpad.txt
 draft/
 secrets/
+localdevicenotes.txt
+scratchpad.txt
