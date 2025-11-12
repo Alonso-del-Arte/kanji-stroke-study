@@ -37,7 +37,7 @@ I'm putting these in the in/ folder of this repository.
 These are in the in/public-domain/ folder.
 
 * A very few haiku, just for the sake of initial testing, either by Basho or his 
-contemporaries.
+contemporaries. English translations are provided.
 * The original Chinese texts which were translated to German by Hans Bethge and 
 then used by Gustav Mahler for *Das Lied von der Erde*. Although Mahler made 
 changes to Bethge's text, those changes are not reflected in either the original 
