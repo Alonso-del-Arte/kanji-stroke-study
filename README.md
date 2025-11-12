@@ -39,7 +39,10 @@ These are in the in/public-domain/ folder.
 * A very few haiku, just for the sake of initial testing, either by Basho or his 
 contemporaries.
 * The original Chinese texts which were translated to German by Hans Bethge and 
-then used by Gustav Mahler for *Das Lied von der Erde*.
+then used by Gustav Mahler for *Das Lied von der Erde*. Although Mahler made 
+changes to Bethge's text, those changes are not reflected in either the original 
+Chinese texts or the provided German translations. I'm not sure which texts the 
+English texts correspond to.
 
 ### Copyrighted
 
