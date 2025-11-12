@@ -51,7 +51,10 @@ These are in the in/copyrighted/ folder.
 #### With advance permission
 
 These are going to be texts that I have obtained permission to use and include 
-in this repository.
+in this repository. I also plan to include a few haiku I've written myself, 
+though I make no promises that they're going to be any good or that they're 
+going to serve any purpose other than provide some context for the use of 
+high-stroke count characters.
 
 #### Without advance permission
 
