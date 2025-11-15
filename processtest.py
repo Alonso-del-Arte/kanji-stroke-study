@@ -11,5 +11,11 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character for code {code} should not be kanji"
         assert not process.isKanji(control_char), message
 
+    def test_ASCII_char_is_not_kanji(self) :
+        code = random.randrange(32, 126)
+        char = chr(code)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+
 if __name__ == '__main__' :
     unittest.main()
