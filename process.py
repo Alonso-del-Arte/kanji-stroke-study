@@ -1,3 +1,7 @@
 # TODO: Write tests for this
+def isKanji(ch) -> bool :
+    return True
+
+# TODO: Write tests for this
 def pickOutKanji(s: str) -> str :
     return "SORRY, NOT IMPLEMENTED YET"
