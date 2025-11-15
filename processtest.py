@@ -1,10 +1,15 @@
 import random
 import unittest
 
+import process
+
 class ProcessTest(unittest.TestCase) :
 
-    def test_placeholder(self) :
-        self.fail("PLACEHOLDER FOR TEST")
+    def test_ASCII_control_char_is_not_kanji(self) :
+        code = random.randrange(0, 31)
+        control_char = chr(code)
+        message = f"Character for code {code} should not be kanji"
+        assert not process.isKanji(control_char), message
 
 if __name__ == '__main__' :
     unittest.main()
