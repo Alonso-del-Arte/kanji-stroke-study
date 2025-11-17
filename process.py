@@ -1,6 +1,6 @@
 # TODO: Write tests for this
 def isKanji(ch) -> bool :
-    return ord(ch) > 0x2FFF
+    return ord(ch) > 0x30FF
 
 # TODO: Write tests for this
 def pickOutKanji(s: str) -> str :
