@@ -53,5 +53,13 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
+    def test_compat_hangul_are_not_kanji(self) :
+        code = random.randint(0x3131, 0x318E)
+        char = chr(code)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+    
+    # TODO: Determine if kanbun should be treated as kanji or not
+        
 if __name__ == '__main__' :
     unittest.main()
