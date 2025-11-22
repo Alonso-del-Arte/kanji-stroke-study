@@ -26,6 +26,16 @@ communication.
 So then my question is: Which Chinese character that you can actually find in a 
 Chinese or Japanese newspaper has the most strokes?
 
+It should be noted that there is a standard way to count strokes, and it doesn't 
+always match what one might assume, or at least what I have assumed. For 
+example, '&#x4E09;', meaning "three," quite obviously consists of three strokes. 
+However, a character like '&#x53E3;', often meaning "mouth," also consists of 
+three strokes, and not, as I incorrectly assumed, four strokes. As it turns out, 
+to write that character correctly, the left vertical line is written as the 
+first stroke, then the upper horizontal line and the right vertical line are 
+written together as one stroke (the second stroke), and finally the lower 
+horizontal line makes the third stroke.
+
 I don't intend to open this project to Hacktoberfest.
 
 ## Text selections
