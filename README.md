@@ -36,6 +36,10 @@ first stroke, then the upper horizontal line and the right vertical line are
 written together as one stroke (the second stroke), and finally the lower 
 horizontal line makes the third stroke.
 
+The way that I intend to run this project is that first I bring in the necessary
+information from Unihan, then I scrape two or three newspapers, count up which
+characters occur the most frequently.
+
 I don't intend to open this project to Hacktoberfest.
 
 ## Text selections
