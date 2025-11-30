@@ -81,10 +81,11 @@ don't upload that content here on GitHub.
 
 ## Dependencies
 
-* Python 3.7 or later -- I would like to be able to use Match statements, so if 
-I get to that point, I'll have to upgrade to Python 3.10.
-* Beautiful Soup -- Not so sure now I need this one. Characters that occur in 
-both HTML metadata and the page proper should be counted accordingly, I think.
-* Unihan ETL -- I figured I would need this one to process the Unihan data, but 
-it has turned out to be so confusing that I might just have to write my own ETL 
-from scratch.
+* Python 3.7 or later &mdash; I would like to be able to use Match statements, 
+so if I get to that point, I'll have to upgrade to Python 3.10.
+* Beautiful Soup &mdash; Not so sure now I need this one. Characters that occur 
+in both HTML metadata and the page proper should be counted accordingly, I 
+think.
+* Unihan ETL &mdash; I figured I would need this one to process the Unihan data, 
+but it has turned out to be so confusing that I might just have to write my own 
+ETL from scratch.
