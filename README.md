@@ -56,7 +56,12 @@ contemporaries. English translations are provided.
 then used by Gustav Mahler for *Das Lied von der Erde*. Although Mahler made 
 changes to Bethge's text, those changes are not reflected in either the original 
 Chinese texts or the provided German translations. I'm not sure which texts the 
-English texts correspond to.
+English texts correspond to. I'm assuming the English translations are public 
+domain until someone tells me otherwise.
+* The original Chinese texts of four Tang dynasty poems which Kiang Kang-hu and 
+Witter Bynner translated to English and Peter Mennin used for a 1948 choral 
+composition. As I doubt the translations are public domain, I have not included 
+them in this folder.
 
 ### Copyrighted
 
