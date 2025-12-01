@@ -6,7 +6,7 @@ def isKanji(ch) -> bool :
         return False
     if ordinal > 0x321F and ordinal < 0x3248 :
         return True
-    return False # ordinal > 0x327F
+    return ordinal > 0x3280
 
 # TODO: Write tests for this
 def pickOutKanji(s: str) -> str :
