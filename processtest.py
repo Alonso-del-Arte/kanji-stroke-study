@@ -97,5 +97,10 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
+    def test_partnership_sign_is_not_kanji(self) :
+        char = chr(0x3250)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+        
 if __name__ == '__main__' :
     unittest.main()
