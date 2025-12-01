@@ -120,5 +120,25 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
+    def test_circled_chamko_is_not_kanji(self) :
+        char = chr(0x327C)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+        
+    def test_circled_jueui_is_not_kanji(self) :
+        char = chr(0x327D)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+        
+    def test_circled_ieung_u_is_not_kanji(self) :
+        char = chr(0x327E)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+        
+    def test_Korean_standard_symbol_is_not_kanji(self) :
+        char = chr(0x327F)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+        
 if __name__ == '__main__' :
     unittest.main()
