@@ -85,5 +85,11 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should be kanji"
         assert process.isKanji(char), message
         
+    def test_circled_ARIB_STD_B24_kanji_are_kanji(self) :
+        code = random.randint(0x3244, 0x3247)
+        char = chr(code)
+        message = f"Character '{char}' should be kanji"
+        assert process.isKanji(char), message
+        
 if __name__ == '__main__' :
     unittest.main()
