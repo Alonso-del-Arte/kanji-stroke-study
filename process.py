@@ -1,7 +1,12 @@
 # TODO: Write tests for this
 def isKanji(ch) -> bool :
     ordinal = ord(ch)
-    return ordinal > 0x321F # and ordinal < 0x3244
+    # TODO: Refactor as Match statement
+    if ordinal < 0x3220 :
+        return False
+    if ordinal > 0x321F and ordinal < 0x3248 :
+        return True
+    return False
 
 # TODO: Write tests for this
 def pickOutKanji(s: str) -> str :
