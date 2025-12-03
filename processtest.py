@@ -227,5 +227,10 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should be kanji"
         assert process.isKanji(char), message
     
+    def test_japanese_corporation_symbol_is_kanji(self) :
+        char = chr(0x337F)
+        message = f"Character '{char}' should be kanji"
+        assert process.isKanji(char), message
+    
 if __name__ == '__main__' :
     unittest.main()
