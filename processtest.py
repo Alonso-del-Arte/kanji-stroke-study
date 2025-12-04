@@ -232,5 +232,14 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should be kanji"
         assert process.isKanji(char), message
     
+    def test_decompose_telegraph_hour_symbols(self) :
+        base = 0x3358
+        hour_char = chr(0x70B9)
+        for n in range(0, 24) :
+            char = chr(base + n)
+            expected = str(n) + hour_char
+            actual = process.decompose(char)
+            self.assertEqual(expected, actual)
+    
 if __name__ == '__main__' :
     unittest.main()
