@@ -20,7 +20,7 @@ def isKanji(ch) -> bool :
         return True
     if ordinal > 0x337A and ordinal < 0x3380 :
         return True
-    return ordinal > 0x3398
+    return False
 
 # TODO: Write a lot more tests for this
 # The idea here is that this will take a character like U+337F, and decompose it 
