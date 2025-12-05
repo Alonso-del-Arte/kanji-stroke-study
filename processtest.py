@@ -244,6 +244,12 @@ class ProcessTest(unittest.TestCase) :
             message = f"Character '{char}' should not be kanji"
             assert not process.isKanji(char), message
 
+    def test_more_square_latin_abbreviations_are_not_kanji_either(self) :
+        code = random.randint(0x3399, 0x33DF)
+        char = chr(code)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+
     def test_decompose_telegraph_hour_symbols(self) :
         base = 0x3358
         hour_char = chr(0x70B9)
