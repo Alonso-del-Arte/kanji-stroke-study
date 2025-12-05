@@ -275,7 +275,7 @@ class ProcessTest(unittest.TestCase) :
     def test_decompose_telegraph_day_symbols(self) :
         base = 0x33DF
         day_char = chr(0x65E5)
-        for n in range(1, 31) :
+        for n in range(1, 32) :
             char = chr(base + n)
             expected = str(n) + day_char
             actual = process.decompose(char)
