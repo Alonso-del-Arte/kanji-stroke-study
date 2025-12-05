@@ -272,5 +272,14 @@ class ProcessTest(unittest.TestCase) :
             actual = process.decompose(char)
             self.assertEqual(expected, actual)
     
+    def test_decompose_telegraph_day_symbols(self) :
+        base = 0x33DF
+        day_char = chr(0x65E5)
+        for n in range(1, 31) :
+            char = chr(base + n)
+            expected = str(n) + day_char
+            actual = process.decompose(char)
+            self.assertEqual(expected, actual)
+    
 if __name__ == '__main__' :
     unittest.main()
