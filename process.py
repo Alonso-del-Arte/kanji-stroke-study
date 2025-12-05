@@ -30,6 +30,9 @@ def isKanji(ch) -> bool :
 # extension blocks.
 def decompose(ch) -> str :
     ordinal = ord(ch)
+    if ordinal > 0x33DF and ordinal < 0x33FD :
+        num_str = str(ordinal - 0x33DF)
+        return num_str + chr(0x65E5)
     num_str = str((ordinal % 0x100) - 0x58)
     return num_str + chr(0x70B9)
 
