@@ -293,6 +293,12 @@ class ProcessTest(unittest.TestCase) :
         
     # Deciding to skip over surrogates and private use area
         
+    def test_cjk_compatibility_ideographs_are_kanji(self) :
+        code = random.randint(0xF900, 0xFAD9)
+        char = chr(code)
+        message = f"Character '{char}' should be kanji"
+        assert process.isKanji(char), message
+                
     # TODO: Review characters prior to U+3358 for decompose( ) tests
 
     def test_decompose_telegraph_hour_symbols(self) :
