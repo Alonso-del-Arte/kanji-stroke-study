@@ -291,6 +291,8 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
+    # Deciding to skip over surrogates and private use area
+        
     # TODO: Review characters prior to U+3358 for decompose( ) tests
 
     def test_decompose_telegraph_hour_symbols(self) :
