@@ -311,6 +311,12 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
+    def test_arabic_presentation_forms_post_nonchars_are_not_kanji(self) :
+        code = random.randint(0xFDF0, 0xFDFF)
+        char = chr(code)
+        message = f"Character '{char}' should not be kanji"
+        assert not process.isKanji(char), message
+        
     # TODO: Review characters prior to U+3358 for decompose( ) tests
 
     def test_decompose_telegraph_hour_symbols(self) :
