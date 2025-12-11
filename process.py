@@ -2,6 +2,10 @@
 def isKanji(ch) -> bool :
     ordinal = ord(ch)
     # TODO: Refactor as Match statement
+    if ordinal > 0x3400 and ordinal < 0x4DBF :
+        return True
+    if ordinal > 0x4E00 and ordinal < 0xA000 :
+        return True
     if ordinal < 0x3220 :
         return False
     if ordinal > 0x321F and ordinal < 0x3248 :
@@ -21,10 +25,6 @@ def isKanji(ch) -> bool :
     if ordinal > 0x337A and ordinal < 0x3380 :
         return True
     if ordinal > 0x33DF and ordinal < 0x33FF :
-        return True
-    if ordinal > 0x3400 and ordinal < 0x4DBF :
-        return True
-    if ordinal > 0x4E00 and ordinal < 0xA000 :
         return True
     if ordinal > 0xF8FF and ordinal < 0xFADA :
         return True
