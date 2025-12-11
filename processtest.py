@@ -328,6 +328,9 @@ class ProcessTest(unittest.TestCase) :
         char = chr(code)
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
+    
+    # Not going through rest of Supplementary Multilingual Plane, since a lot of 
+    # it is unallocated
         
     # TODO: Review characters prior to U+3358 for decompose( ) tests
 
