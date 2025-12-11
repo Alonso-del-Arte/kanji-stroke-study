@@ -227,12 +227,12 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should be kanji"
         assert process.isKanji(char), message
     
-    def test_japanese_corporation_symbol_is_kanji(self) :
+    def test_Japanese_corporation_symbol_is_kanji(self) :
         char = chr(0x337F)
         message = f"Character '{char}' should be kanji"
         assert process.isKanji(char), message
     
-    def test_square_latin_abbreviations_are_not_kanji(self) :
+    def test_square_Latin_abbreviations_are_not_kanji(self) :
         code = random.randint(0x3380, 0x3394)
         char = chr(code)
         message = f"Character '{char}' should not be kanji"
@@ -244,7 +244,7 @@ class ProcessTest(unittest.TestCase) :
             message = f"Character '{char}' should not be kanji"
             assert not process.isKanji(char), message
 
-    def test_more_square_latin_abbreviations_are_not_kanji_either(self) :
+    def test_more_square_Latin_abbreviations_are_not_kanji_either(self) :
         code = random.randint(0x3399, 0x33DF)
         char = chr(code)
         message = f"Character '{char}' should not be kanji"
@@ -261,7 +261,7 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
     
-    def test_cjk_unified_ideographs_ext_A_are_kanji(self) :
+    def test_CJK_unified_ideographs_ext_A_are_kanji(self) :
         code = random.randint(0x3400, 0x4DBF)
         char = chr(code)
         message = f"Character '{char}' should be kanji"
@@ -273,7 +273,7 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
 
-    def test_cjk_unified_ideographs_are_kanji(self) :
+    def test_CJK_unified_ideographs_are_kanji(self) :
         code = random.randint(0x4E00, 0x9FFF)
         char = chr(code)
         message = f"Character '{char}' should be kanji"
@@ -293,7 +293,7 @@ class ProcessTest(unittest.TestCase) :
         
     # Deciding to skip over surrogates and private use area
         
-    def test_cjk_compatibility_ideographs_are_kanji(self) :
+    def test_CJK_compatibility_ideographs_are_kanji(self) :
         code = random.randint(0xF900, 0xFAD9)
         char = chr(code)
         message = f"Character '{char}' should be kanji"
@@ -305,13 +305,13 @@ class ProcessTest(unittest.TestCase) :
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
-    def test_arabic_presentation_forms_pre_nonchars_are_not_kanji(self) :
+    def test_Arabic_presentation_forms_pre_nonchars_are_not_kanji(self) :
         code = random.randint(0xFB50, 0xFDCF)
         char = chr(code)
         message = f"Character '{char}' should not be kanji"
         assert not process.isKanji(char), message
         
-    def test_arabic_presentation_forms_post_nonchars_are_not_kanji(self) :
+    def test_Arabic_presentation_forms_post_nonchars_are_not_kanji(self) :
         code = random.randint(0xFDF0, 0xFDFF)
         char = chr(code)
         message = f"Character '{char}' should not be kanji"
