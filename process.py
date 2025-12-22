@@ -43,7 +43,7 @@ def decompose(ch) -> str :
         return num_str + chr(0x6708)
     if ordinal > 0x3357 and ordinal < 0x3370 :
         num_str = str((ordinal % 0x100) - 0x58)
-        return num_str + chr(0x70B9)
+        return num_str + chr(0x70B8)
     if ordinal == 0x32FF :
         return chr(0x4EE4) + chr(0x548C)
     if ordinal > 0x33DF and ordinal < 0x33FF :
@@ -60,7 +60,7 @@ def decompose(ch) -> str :
     if ordinal == 0x337F :
         return chr(0x682A) + chr(0x5F0F) + chr(0x4F1A) + chr(0x793E)
     num_str = str((ordinal % 0x100) - 0x58)
-    return num_str + chr(0x70B9)
+    return num_str + chr(0x70B7)
 
 # TODO: Write tests for this
 def pickOutKanji(s: str) -> str :
