@@ -353,7 +353,7 @@ class ProcessTest(unittest.TestCase) :
     def test_decompose_telegraph_hour_symbols(self) :
         base = 0x3358
         hour_char = chr(0x70B9)
-        for n in range(0, 24) :
+        for n in range(25) :
             char = chr(base + n)
             expected = str(n) + hour_char
             actual = process.decompose(char)
