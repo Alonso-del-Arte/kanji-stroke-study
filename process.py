@@ -41,7 +41,7 @@ def decompose(ch) -> str :
     if ordinal > 0x32BF and ordinal < 0x32CC :
         num_str = str(ordinal - 0x32BF)
         return num_str + chr(0x6708)
-    if ordinal > 0x3357 and ordinal < 0x3370 :
+    if ordinal > 0x3357 and ordinal < 0x3371 :
         num_str = str((ordinal % 0x100) - 0x58)
         return num_str + chr(0x70B9)
     if ordinal == 0x32FF :
