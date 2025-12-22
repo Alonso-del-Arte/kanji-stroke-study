@@ -333,6 +333,15 @@ class ProcessTest(unittest.TestCase) :
     # it is unallocated
         
     # TODO: Review characters prior to U+3358 for decompose( ) tests
+    
+    def test_decompose_month_symbols(self) :
+        base = 0x32BF
+        month_char = chr(0x6708)
+        for n in range(1, 13) :
+            char = chr(base + n)
+            expected = str(n) + month_char
+            actual = process.decompose(char)
+            self.assertEqual(expected, actual)
 
     def test_decompose_telegraph_hour_symbols(self) :
         base = 0x3358
