@@ -359,6 +359,13 @@ class ProcessTest(unittest.TestCase) :
             actual = process.decompose(char)
             self.assertEqual(expected, actual)
     
+    def test_decompose_heisei_era_name(self) :
+        era_name_char = chr(0x337B)
+        expected = chr(0x5E73) + chr(0x6210)
+        actual = process.decompose(era_name_char)
+        message = f"Decomposing '{era_name_char}'"
+        self.assertEqual(expected, actual, message)
+
     def test_decompose_telegraph_day_symbols(self) :
         base = 0x33DF
         day_char = chr(0x65E5)
