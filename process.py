@@ -48,6 +48,8 @@ def decompose(ch) -> str :
         return num_str + chr(0x65E5)
     if ordinal == 0x337B :
         return chr(0x5E73) + chr(0x6210)
+    if ordinal == 0x337C :
+        return chr(0x662D) + chr(0x548C)
     num_str = str((ordinal % 0x100) - 0x58)
     return num_str + chr(0x70B9)
 
