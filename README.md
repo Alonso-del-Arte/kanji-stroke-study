@@ -90,9 +90,6 @@ don't upload that content here on GitHub.
 so if I get to that point, I'll have to upgrade to Python 3.10. In December 
 2025, I got to that point. The function `isKanji( )` has become a horrible mess 
 of If statements.
-* Beautiful Soup &mdash; Not so sure now I need this one. Characters that occur 
-in both HTML metadata and the page proper should be counted accordingly, I 
-think.
 * Unihan ETL &mdash; I figured I would need this one to process the Unihan data, 
 but it has turned out to be so confusing that I might just have to write my own 
 ETL from scratch.
