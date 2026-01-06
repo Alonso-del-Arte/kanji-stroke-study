@@ -87,7 +87,9 @@ don't upload that content here on GitHub.
 ## Dependencies
 
 * Python 3.7 or later &mdash; I would like to be able to use Match statements, 
-so if I get to that point, I'll have to upgrade to Python 3.10.
+so if I get to that point, I'll have to upgrade to Python 3.10. In December 
+2025, I got to that point. The function `isKanji( )` has become a horrible mess 
+of If statements.
 * Beautiful Soup &mdash; Not so sure now I need this one. Characters that occur 
 in both HTML metadata and the page proper should be counted accordingly, I 
 think.
