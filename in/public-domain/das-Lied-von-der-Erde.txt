@@ -1,6 +1,7 @@
+
+
 Das Lied von der Erde
 
-Das Trinklied vom Jammer der Erde
 
 悲歌行
 
@@ -40,6 +41,9 @@ Das Trinklied vom Jammer der Erde
 还须黑头取方伯，
 莫谩白首为儒生。
 
+
+Das Trinklied vom Jammer der Erde
+
 Schon winkt der Wein im goldenen Pokalen,
 Doch trinkt noch nicht, erst sing ich euch ein Lied!
 Das Lied vom Kummer soll euch in die Seele
@@ -78,6 +82,7 @@ Dunkel ist das Leben, ist der Tod!
 Geschrieben von Li Bai,
 übersetzung von Hans Bethge
 
+
 Tale of Sorrowful Song
 
 Sorrow comes; sorrow comes
@@ -100,7 +105,6 @@ Must empty this cup of wine in one gulp.
 
 Written by Li Bai, translated by ?
 
-Der Einsame im Herbst
 
 效古秋夜长
 
@@ -114,6 +118,9 @@ Der Einsame im Herbst
 锦幕云屏深掩扉。
 白玉窗中闻落叶，
 应怜寒女独无依
+
+
+Der Einsame im Herbst
 
 Herbstnebel wallen bläulich überm See;
 Vom Reif bezogen stehen alle Gräser;
@@ -139,6 +146,7 @@ Um meine bittern Tränen aufzutrocknen?
 Geschrieben von Qian Qi,
 übersetzung von Hans Bethge
 
+
 Imitation of Old Poem: Long Autumn Night
 
 Autumn sky, jade-like frost drifting
@@ -154,7 +162,6 @@ Pity the woman, chilled and alone without company]
 
 Written by Qian Qi, translated by ?
 
-Von der Jugend
 
 宴陶家亭子
 
@@ -166,6 +173,9 @@ Von der Jugend
 青轩袐晚霞。
 若闻弦管妙，
 金谷不能夸。
+
+
+Von der Jugend
 
 Mitten in dem kleinen Teiche
 Steht ein Pavillon aus grünem
@@ -197,6 +207,7 @@ Und aus weißem Porzellan;
 
 Li Bai (übers. Hans Bethge)
 
+
 Banquet at Tao’s Family Pavilion
 
 Winding path; private residence in quietude
@@ -210,7 +221,6 @@ Unmatched by “golden valley”
 
 Li Bai (transl. ?)
 
-Von der Schönheit
 
 采莲曲
 
@@ -222,6 +232,9 @@ Von der Schönheit
 三三五五映垂杨。
 紫骝嘶入落花去，
 见此踟蹰空断肠。
+
+
+Von der Schönheit
 
 Junge Mädchen,
 Pflücken Lotosblumen an dem Uferrande. 
@@ -256,6 +269,7 @@ Wehklagt die Erregung ihres Herzen
 
 Li Bai (übers. Bethge)
 
+
 Lotus-plucking Song
 
 By Ruo-Ye Brook, lotus-picking girls
@@ -269,7 +283,6 @@ Witnessing this, troubled and lament in vain
 
 Li Bai (transl. ?)
 
-Der Trunkene im Frühling
 
 春日醉起言志
 
@@ -287,6 +300,9 @@ Der Trunkene im Frühling
 对酒还自倾。
 浩歌待明月，
 曲尽已忘情。
+
+
+Der Trunkene im Frühling
 
 Wenn nur ein Traum das Dasein ist,
 Warum denn Müh und Plag?
@@ -320,6 +336,7 @@ Laßt mich betrunken sein!
 
 Li Bai (übers. Bethge)
 
+
 Feelings upon Awakening from Drunkenness on a Spring Day
 
 Earthly life resembles big dream
@@ -335,7 +352,6 @@ Facing the wine, pour for oneself
 Singing loudly, awaiting the moon
 Song ends, feelings forgotten
 
-Der Abschied
 
 宿业师山房待丁大不至
 
@@ -347,6 +363,9 @@ Der Abschied
 烟鸟栖初定。
 之子期宿来，
 孤琴候萝径。
+
+
+Der Abschied
 
 Die Sonne scheidet hinter dem Gebirge.
 In alle Täler steigt der Abend nieder
@@ -370,6 +389,7 @@ der zu kommen mir versprach
 Geschrieben von Meng Haoran,
 übersetzung von Hans Bethge
 
+
 Staying at Teacher’s Mountain Retreat, Awaiting a Friend in Vain
 
 Dusk sun passes the western peak
@@ -383,6 +403,7 @@ lonely lute awaits at rattan trail
 
 Wang Wei
 
+
 Farewell
 
 Dismount horse, drink your wine
@@ -393,7 +414,10 @@ Please go. Ask no more.
 Endless, the white clouds.
 
 Wang Wei
+
+
 Farewell in the Mountain
+
 Bid each other farewell in the mountain
 Closing wooden gate at dusk
 Spring grass green again next year
