@@ -41,7 +41,10 @@ information from Unihan, then I scrape two or three newspapers, count up which
 characters occur the most frequently.
 
 I need to do research on the frequency of use of kanji from outside Unicode's 
-Basic Multilingual Plane...
+Basic Multilingual Plane (BMP). I get the feeling the vast majority of kanji 
+used in newspapers come from the BMP, but a few might come from the 
+Supplementary Ideographic Plane (SIP) or even the Tertiary Ideographic Plane 
+(TIP). 
 
 I don't intend to open this project to Hacktoberfest.
 
