@@ -40,6 +40,9 @@ The way that I intend to run this project is that first I bring in the necessary
 information from Unihan, then I scrape two or three newspapers, count up which
 characters occur the most frequently.
 
+I need to do research on the frequency of use of kanji from outside Unicode's 
+Basic Multilingual Plane...
+
 I don't intend to open this project to Hacktoberfest.
 
 ## Text selections
