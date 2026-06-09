@@ -20,8 +20,7 @@ Japanese bypass kanji altogether, with "&#x3046;&#x308B;&#x3055;&#x3044;"
 ("urusai").
 
 The page also listed a character with almost two hundred strokes, but 
-acknowledged it was probably meant as a talisman rather than as actual 
-communication.
+acknowledged it was probably meant as a talisman rather than to actually convey any meaning. 
 
 So then my question is: Which Chinese character that you can actually find in a 
 Chinese or Japanese newspaper has the most strokes?
